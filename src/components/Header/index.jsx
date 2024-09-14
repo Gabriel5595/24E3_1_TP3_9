@@ -24,7 +24,6 @@ export default function Header() {
                 <i className="pi pi-bars" onClick={() => toggleMenu()}></i>
 
                 <ul className={isOpen ? styles.navbar : styles.navbarActive}>
-                    {/* UTILIZE UM TERNÁRIO NA CLASSE ACIMA PARA DEFINIR O CLASSE EM SI COM BASE NO STATUS DE isOpen. */}
                     <li className={styles.navItem}><a>Home</a></li>
                     <li className={styles.navItem}><a>Serviços</a></li>
                     <li className={styles.navItem}><a>Produtos</a></li>

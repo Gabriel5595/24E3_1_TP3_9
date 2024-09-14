@@ -54,7 +54,7 @@
         display: none;
     }
     
-    .navbar {
+    .navbar, .navbarActive {
         width: 80%;
         list-style: none;
         display: flex;
